@@ -41,3 +41,11 @@ Route::get('/dokter', 'DokterController@about');
 Route::get('/karyawan', 'KaryawanController@home');
 Route::get('/karyawati', 'KaryawatiController@index');
 Route::get('/mahasiswa', 'MahasiswaController@about');
+
+Route::get('/Barang', 'BarangController@index');
+
+Route::get('/Kategori', 'KategoriController@index');
+
+Route::get('/User', 'UserController@index');
+
+Route::get('/Satuan', 'SatuanController@index');
